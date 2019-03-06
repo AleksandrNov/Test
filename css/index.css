@@ -42,6 +42,13 @@ body {
     cursor: pointer;
 }
 
+.search-btn button:hover {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    height: 110px;
+}
+
 .search-btn button:focus {
     outline: none;
 }

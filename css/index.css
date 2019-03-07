@@ -41,6 +41,8 @@ color: #c2c2c2;
     width: 100%;
     font-size: 90px;
     font-weight: bold;
+    outline: none;
+
 }
 
 .search-btn {
@@ -51,14 +53,15 @@ color: #c2c2c2;
     border: none;
     background: transparent;
     cursor: pointer;
+    transition: 0.25ms all ease;
 }
 
-.search-btn button:hover {
+/* .search-btn button:hover {
     border: none;
     background: transparent;
     cursor: pointer;
     height: 110px;
-}
+} */
 
 .search-btn button:focus {
     outline: none;
